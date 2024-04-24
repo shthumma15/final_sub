@@ -1,4 +1,4 @@
-<hi>Customer Segmentation Analysis Web Application</h1>
+<h1>Customer Segmentation Analysis Web Application</h1>
 <h2>Abstract</h2>
 This web application for consumer segmentation analysis is like having a hidden weapon for knowing your target audience. Determining your clients' identities and needs is all about interpreting the data. You may delve deeply into consumer demographics and behavior with this software, which will assist you in making more informed decisions about how to connect with and cater to your audience.
 <h2>Aim</h2>
