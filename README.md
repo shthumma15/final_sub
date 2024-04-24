@@ -9,3 +9,5 @@ The data can be examined, sorted, and filtered, and the relationships between va
 The application was developed in Python, with Streamlit providing interactivity, and useful libraries such as Pandas, Matplotlib, and Seaborn for data analysis and visualization. Backblaze B2 also assisted us in safely storing and retrieving the data.
 <h2>Ethical Concerns</h2>
 Python was used in the development of the program, and key libraries like Pandas, Matplotlib, and Seaborn were used for data processing and visualization. Streamlit was used to provide interactivity. Backblaze B2 is also used in securely storing and recovering the data.
+<h2>Link to tyhe application</h2>
+https://finalsub-gykjx4nkpd2cnjf33m6yys.streamlit.app/
