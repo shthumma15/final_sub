@@ -40,12 +40,17 @@ if df is not None:
     train = df.drop(['ID', 'Var_1'], axis=1)
     data_cleaned = df.dropna(subset=['Age', 'Segmentation'])
 
-    # Data Overview
-    st.header("Data Overview")
-    st.write("Number of Rows:", train.shape[0])
-    st.write("Number of Columns:", train.shape[1])
-    st.write("Data Types:", train.dtypes)
-    st.write("Summary Statistics:", train.describe())
+# Data Overview
+st.header("Data Overview")
+st.write("Number of Rows:", train.shape[0])
+st.write("Number of Columns:", train.shape[1])
+
+# Convert data types to strings
+data_types_str = train.dtypes.apply(lambda x: str(x))
+st.write("Data Types:", data_types_str)
+
+st.write("Summary Statistics:", train.describe())
+
 
   # Data Visualization
 st.header("Data Visualization")
