@@ -45,12 +45,12 @@ st.header("Data Overview")
 st.write("Number of Rows:", train.shape[0])
 st.write("Number of Columns:", train.shape[1])
 
-# Convert data types to strings
-data_types_str = train.dtypes.apply(lambda x: str(x))
-st.write("Data Types:", data_types_str)
+# Convert data types to dictionary
+data_types_dict = train.dtypes.apply(lambda x: str(x)).to_dict()
+st.write("Data Types:")
+st.write(data_types_dict)
 
 st.write("Summary Statistics:", train.describe())
-
 
   # Data Visualization
 st.header("Data Visualization")
