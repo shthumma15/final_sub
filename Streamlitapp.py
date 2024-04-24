@@ -109,3 +109,5 @@ else:
     # Data table
     st.header("First 30 rows of the DataFrame:")
     st.dataframe(train.head(30))
+
+st.markdown("[Click here to access my github](https://github.com/shthumma15/final_sub)")
